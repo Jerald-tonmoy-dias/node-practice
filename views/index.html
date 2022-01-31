@@ -3,9 +3,25 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
   </head>
   <body>
+    <div class="flex space-x-4">
+      <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+      <a
+        href="/"
+        class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium"
+        aria-current="page"
+        >Home</a
+      >
+
+      <a
+        href="/about"
+        class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+        >about</a
+      >
+    </div>
     <h2>Hey buddy</h2>
     <p>Go go go</p>
   </body>

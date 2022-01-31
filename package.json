@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Jerald-tonmoy-dias/node-practice#readme",
   "dependencies": {
+    "express": "^4.17.2",
     "lodash": "^4.17.21"
   }
 }
